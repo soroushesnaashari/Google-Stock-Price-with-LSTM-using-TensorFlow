@@ -2,14 +2,14 @@
 [![](Image.jpg)](https://unsplash.com/photos/the-google-logo-is-displayed-on-the-side-of-a-building-r-oebX7qWxM)
 
 ### Overview
-This project demonstrates how to use a Long Short-Term Memory (LSTM) neural network to predict Google stock prices. By leveraging TensorFlow and its high-level APIs, the notebook guides you through loading historical stock data, preprocessing it for a time series forecast, constructing and training an LSTM model, and ultimately visualizing the predicted versus actual stock prices.
+This project demonstrates how to use a Long Short-Term Memory (LSTM) neural network to predict Google stock prices. By leveraging TensorFlow and its high-level APIs, the notebook guides you through loading historical stock data, preprocessing it for a time series forecast, constructing and training an LSTM model and ultimately visualizing the predicted versus actual stock prices.
 
 <br>
 
 ### Project Flow
 1. **Data Collection & Preparation:**
   - Historical stock price data for Google is loaded.
-  - The data is preprocessed by handling missing values, normalizing features, and formatting the data into a time series structure suitable for LSTM input.
+  - The data is preprocessed by handling missing values, normalizing features and formatting the data into a time series structure suitable for LSTM input.
 
 2. **Model Development:**
   - An LSTM model is built using TensorFlow.
@@ -28,9 +28,9 @@ This project demonstrates how to use a Long Short-Term Memory (LSTM) neural netw
 
 ### Key Features
 - **LSTM Architecture:** Tailored for time-series prediction, capturing temporal dependencies in stock prices.
-- **TensorFlow Implementation:** Utilizes TensorFlow’s robust framework to build, train, and evaluate the neural network.
+- **TensorFlow Implementation:** Utilizes TensorFlow’s robust framework to build, train and evaluate the neural network.
 - **Data Preprocessing:** Incorporates techniques like normalization and data reshaping to optimize model performance.
-- **Modular Code Structure:** The project is organized into clear sections for data preparation, model development, training, and evaluation, making it easy to understand and modify.
+- **Modular Code Structure:** The project is organized into clear sections for data preparation, model development, training and evaluation, making it easy to understand and modify.
 - **Visualization:** Graphs and plots are included to effectively communicate the model’s predictions against actual market trends.
 
 <br>
@@ -43,7 +43,7 @@ This project demonstrates how to use a Long Short-Term Memory (LSTM) neural netw
 <br>
 
 ### Repository Contents
-- **`google-stock-price-lstm-using-tensorflow.ipynb`**: Jupyter Notebook with full code, visualizations, and explanations.
+- **`google-stock-price-lstm-using-tensorflow.ipynb`**: Jupyter Notebook with full code, visualizations and explanations.
 - **`Data`:** Contains the [Original Dataset](https://www.kaggle.com/datasets/soroushesnaashari/google-stock-price-2018-2025) and you can see the cleaned dataset in notebook.
 - **`README.md`:** Project documentation.
 
