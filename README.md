@@ -37,7 +37,7 @@ This project demonstrates how to use a Long Short-Term Memory (LSTM) neural netw
 
 ### Results
 - **Forecast Accuracy:** The LSTM model demonstrates promising results by effectively capturing the trends in Google stock prices.
-- **Performance Metrics:** Evaluation metrics such as loss (and potentially others like Mean Squared Error) indicate that the model is well-tuned for forecasting.
+- **Performance Metrics:** Evaluation metrics such as loss indicate that the model is well-tuned for forecasting.
 - **Visual Validation:** Plots comparing the predicted and actual stock prices show a strong correlation, reinforcing the model’s predictive capability.
 
 <br>
